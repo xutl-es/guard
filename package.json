@@ -1,0 +1,30 @@
+{
+	"name": "@xutl/error",
+	"version": "1.0.0",
+	"description": "Errors & Assertions",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "xutltest '**/*.t.js'",
+		"build": "tsc",
+		"prepublishOnly": "npm run build"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xutl-es/error.git"
+	},
+	"keywords": [
+		"XtremelyUsefulToolLibraries",
+		"Error"
+	],
+	"author": "XUTL <dev@xutl.es>",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/xutl-es/error/issues"
+	},
+	"homepage": "https://xutl.es",
+	"devDependencies": {
+		"@types/node": "^17.0.25",
+		"@xutl/test": "^1.0.0",
+		"typescript": "^4.6.3"
+	}
+}
