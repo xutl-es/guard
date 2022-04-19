@@ -1,6 +1,6 @@
 {
-	"name": "@xutl/error",
-	"version": "1.0.0",
+	"name": "@xutl/guard",
+	"version": "1.0.1",
 	"description": "Errors & Assertions",
 	"main": "src/index.js",
 	"scripts": {
